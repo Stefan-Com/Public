@@ -171,7 +171,7 @@ function show_score(){
   container.appendChild(result);
   index = 1;
   questions = [];
-  document.querySelector("#play_button").style.pointerEvents = "all";
+  score = 0; document.querySelector("#play_button").style.pointerEvents = "all";
 };
 
 function set_loading(button_class){
